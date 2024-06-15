@@ -18,6 +18,22 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\gabri\OneDrive\Documentos\POOII\SucursalLab
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Empresa/AddEmpresa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxBZGRFbXByZXNhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Empresa/DeleteEmpresa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxEZWxldGVFbXByZXNhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Empresa/EditEmpresa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxFZGl0RW1wcmVzYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Empresa/EmpresaList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxFbXByZXNhTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

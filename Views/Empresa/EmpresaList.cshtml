@@ -1,0 +1,37 @@
+@using SucursalLab.Models
+@model List<EmpresaModel>  
+
+@{
+    ViewData["Title"]="Lista de Empresas";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table table-striped">
+    <thead>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Descripción</th>
+            
+           
+        </thead>
+    <tbody>
+@foreach(var empresa in Model)
+{
+    <tr>
+        <td>@empresa.Id</td>
+        <td>@empresa.Name</td>
+        <td>@empresa.Description</td>
+
+        <td>
+            <a class="btn btn-outline-info" asp-action="EditEmpresa" asp-controller="Empresa" asp-route-id="@empresa.Id">Editar</a>
+            <a class="btn btn-outline-info" asp-action="DeleteEmpresa" asp-controller="Empresa" asp-route-id="@empresa.Id">Borrar</a>
+        </td>
+    </tr>
+}
+    </tbody>
+    <tfoot></tfoot>
+</table>
+
+ <a class="btn btn-outline-info" asp-action="AddEmpresa" asp-controller="Empresa">Agregar Empresa</a>
+
