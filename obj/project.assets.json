@@ -4111,11 +4111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Escritorio\\POOII\\SucursalesLab\\SucursalesLab\\SucursalesLab.csproj",
+      "projectUniqueName": "C:\\Users\\gabri\\OneDrive\\Documentos\\POOII\\SucursalLab\\SucursalesLab.csproj",
       "projectName": "SucursalesLab",
-      "projectPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\POOII\\SucursalesLab\\SucursalesLab\\SucursalesLab.csproj",
+      "projectPath": "C:\\Users\\gabri\\OneDrive\\Documentos\\POOII\\SucursalLab\\SucursalesLab.csproj",
       "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gabri\\OneDrive\\Escritorio\\POOII\\SucursalesLab\\SucursalesLab\\obj\\",
+      "outputPath": "C:\\Users\\gabri\\OneDrive\\Documentos\\POOII\\SucursalLab\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -4183,7 +4183,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,5 +1,43 @@
+@using SucursalLab.Models
+@model List<SucursalModel>
+
 @{
-    ViewData["Title"] = "Listado de Sucursales";
+    ViewData["Title"]="Lista de Sucursales";
 }
 
 <h1>@ViewData["Title"]</h1>
+
+<table class="table table-striped">
+    <thead>
+            <th scope="col">#</th>
+            <th scope="col">Marca</th>
+            <th scope="col">Modelo</th>
+            <th scope="col">Dueño</th>
+            <th scope="col">Placas</th>
+            <th scope="col">Dirección</th>
+            
+           
+        </thead>
+    <tbody>
+@foreach (var sucursal in Model)
+{
+
+    <tr>
+        <td>@sucursal.Id</td>
+        <td>@sucursal.Name</td>
+        <td>@sucursal.Empresa</td>
+        <td>@sucursal.Location</td>
+        <td>@sucursal.NumEmpleados</td>
+        <td>@sucursal.Presupuesto</td>
+
+        <td>
+            <a class="btn btn-outline-info" asp-action="EditSucursal" asp-controller="Sucursal" asp-route-id="@sucursal.Id">Editar</a>
+            <a class="btn btn-outline-info" asp-action="DeleteSucursal" asp-controller="Sucursal" asp-route-id="@sucursal.Id">Borrar</a>
+        </td>
+    </tr>
+}
+    </tbody>
+    <tfoot></tfoot>
+</table>
+
+ <a class="btn btn-outline-info" asp-action="AddSucursal" asp-controller="Sucursal">Agregar Vehiculo</a>
