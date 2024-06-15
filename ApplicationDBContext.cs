@@ -1,6 +1,7 @@
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Net.Http.Headers;
+using SucursalLab.Entities;
 
 namespace SucursalesLab
 {
@@ -18,6 +19,7 @@ namespace SucursalesLab
         }
 
         public DbSet<SucursalEntity> Sucursales => Set<SucursalEntity>();
+        public DbSet<EmpresaEntity> Empresas => Set<EmpresaEntity>();
 
     }
 
