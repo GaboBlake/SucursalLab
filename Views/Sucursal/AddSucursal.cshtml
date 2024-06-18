@@ -13,24 +13,26 @@
     </div>
 
     <label class="form-label" for="Empresa">Empresa</label><br>
-        <input asp-for="Name" placeholder="Escriba el nombre de la empresa">
+        <input asp-for="Empresa" placeholder="Escriba el nombre de la empresa">
     </div>
 
     <div>
         <label class="form-label" for="Location">Ubicación</label><br>
-        <input asp-for="Name" placeholder="Escriba la ubicación">
+        <input asp-for="Location" placeholder="Escriba la ubicación">
     </div>
 
     <div>
         <label class="form-label" for="NumEpleados"># de empleados</label><br>
-        <input asp-for="Name" placeholder="Escriba el número de empleados">
+        <input asp-for="NumEmpleados" placeholder="Escriba el número de empleados">
     </div>
 
     <div>
         <label class="form-label" for="Presupuesto">Presupuesto</label><br>
-        <input asp-for="Name" placeholder="Escriba el presupuesto">
+        <input asp-for="Presupuesto" placeholder="Escriba el presupuesto">
     </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+    <a class="btn btn-outline-info" asp-action="AddSucursal" asp-controller="Sucursal">Regresar</a>
 
 </form>
 
- <a class="btn btn-outline-info" asp-action="AddSucursal" asp-controller="Sucursal">Agregar sucursal</a>
+ 

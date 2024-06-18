@@ -64,5 +64,95 @@ namespace SucursalesLab.Controllers
             }
             return View ();
         }
+
+        [HttpGet]
+        public IActionResult DeleteSucursal(int Id)
+        {
+            SucursalEntity sucursal = this._context.Sucursales.Where(s => s.Id == Id).First();
+
+            if (sucursal == null)
+            {
+                return RedirectToAction("SucursalList","Sucursal");
+
+            }
+
+            SucursalModel model = new SucursalModel();
+            model.Id = sucursal.Id;
+            model.Name = sucursal.Name;
+            model.Empresa = sucursal.Empresa;
+            model.Location = sucursal.Location;
+            model.NumEmpleados = sucursal.NumEmpleados;
+            model.Presupuesto = sucursal.Presupuesto;
+
+            return View (model);
+        }
+
+        [HttpPost]
+        public IActionResult DeleteSucursal(SucursalModel sucursalModel)
+        {
+            bool exists = this._context.Sucursales.Any(a => a.Id == sucursalModel.Id);
+            if (!exists)
+            {
+                return View (sucursalModel);
+            }
+
+            SucursalEntity sucursal = this._context.Sucursales.Where (s => s.Id == sucursalModel.Id).First();
+            sucursal.Name = sucursalModel.Name;
+            sucursal.Empresa = sucursalModel.Empresa;
+            sucursal.Location = sucursalModel.Location;
+            sucursal.NumEmpleados= sucursalModel.NumEmpleados;
+            sucursal.Presupuesto= sucursalModel.Presupuesto;
+
+            this._context.Sucursales.Remove(sucursal);
+            this._context.SaveChanges();
+
+            return RedirectToAction("SucursalList","Sucursal");
+
+            
+        }
+
+        [HttpGet]
+        public IActionResult EditSucursal(int Id)
+        {
+            SucursalEntity sucursal = this._context.Sucursales.Where(s => s.Id == Id).First();
+
+            if (sucursal==null)
+            {
+                return RedirectToAction("SucursalList","Sucursal");
+            }
+
+            SucursalModel model = new SucursalModel();
+            model.Id = sucursal.Id;
+            model.Name = sucursal.Name;
+            model.Empresa = sucursal.Empresa;
+            model.Location = sucursal.Location;
+            model.NumEmpleados = sucursal.NumEmpleados;
+            model.Presupuesto=sucursal.Presupuesto;
+
+            return View(model);
+
+        }
+
+        [HttpPost]
+        public IActionResult EditSucursal(SucursalModel sucursalModel)
+        {
+            SucursalEntity sucursal =this._context.Sucursales.Where(s=>s.Id == sucursalModel.Id).First();
+
+            if(sucursalModel == null)
+            {
+                return RedirectToAction("SucursalModel");
+            }
+
+            sucursal.Name = sucursalModel.Name;
+            sucursal.Empresa = sucursalModel.Empresa;
+            sucursal.Location = sucursal.Location;
+            sucursal.NumEmpleados= sucursal.NumEmpleados;
+            sucursal.Presupuesto = sucursal.Presupuesto;
+
+            this._context.Sucursales.Update(sucursal);
+            this._context.SaveChanges();
+
+            return RedirectToAction("SucursalList","Sucursal");
+        }
     }
 }

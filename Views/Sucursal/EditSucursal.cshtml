@@ -1,0 +1,49 @@
+@using SucursalLab.Models
+@model SucursalModel
+
+@{
+    ViewData["Title"]="Editar Sucursal";
+}
+
+<h1 class="text-cennter">Registro de nueva sucursal</h1>
+<br><br>
+
+<form asp-action="EditSucursal" asp-controller="Sucursal">
+<input type="hidden" asp-for="Id">
+
+<div class="form-floating mb-3">
+    <input type="text" class="form-control" asp-for="Name" placeholder="Nombre de la sucursal">
+    <label asp-for="Name">Nombre de la sucursal</label>
+</div>
+
+<div class="form-floating mb-3">
+    <input type="text" class="form-control" asp-for="Empresa" placeholder="Nombre de la empresa">
+    <label asp-for="Empresa">Nombre de la empresa</label>
+</div>
+
+
+
+<div class="form-floating mb-3">
+    <input type="text" class="form-control" asp-for="Location" placeholder="Ubicación">
+    <label asp-for="Location">Ubicación de la sucursal</label>
+</div>
+
+<div class="form-floating mb-3">
+    <input type="text" class="form-control" asp-for="NumEmpleados" placeholder="# de empleados">
+    <label asp-for="NumEmpleados">Nombre de la sucursal</label>
+</div>
+
+<div class="form-floating mb-3">
+    <input type="text" class="form-control" asp-for="Presupuesto" placeholder="Presupuesto">
+    <label asp-for="Presupuesto">Presupuesto de la sucursal</label> 
+</div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+@* <button class="btn btn-outline-primary">Guardar</button> 
+<a class="btn btn-outline-secundary" asp-action="SucursalList" asp-controller="Sucursal">Regresar</a> *@
+
+
+
+
+
+</form>

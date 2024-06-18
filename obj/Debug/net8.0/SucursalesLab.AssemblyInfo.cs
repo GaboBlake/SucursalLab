@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SucursalesLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b9e67b5efeb5e051b859752fb46dc9713ce2ffb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c33d2aa6547d3417bfc182e1fd0cf4e571bcb4c0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SucursalesLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SucursalesLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

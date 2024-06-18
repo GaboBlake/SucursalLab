@@ -1,0 +1,23 @@
+@using SucursalLab.Models
+@model EmpresaModel
+
+<h1 class="text-cennter">Registro de nueva empresa</h1>
+<br><br>
+
+<div asp-validation-summary="All" class="Text-danger"></div>
+
+<form asp-controller="Empresa" asp-action="AddEmpresa">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Nombre de la empresa</label>
+        <input type="text" class="form-control" asp-for="Name" placeholder="Escriba nombre de la empresa" />
+    </div>
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label">Descripción de la empresa</label>
+        <input type="text" class="form-control" asp-for="Description" placeholder="Descripción de la empresa" />
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+
+    <a asp-controller="Empresa" asp-action="EmpresaList" class="btn btn-secundary mb-3"> Regresar </a>
+</form>
