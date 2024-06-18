@@ -9,71 +9,71 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SucursalesLab
 build_property.RootNamespace = SucursalesLab
-build_property.ProjectDir = C:\Users\gabri\OneDrive\Documentos\POOII\SucursalLab\
+build_property.ProjectDir = C:\Users\gabri\OneDrive\Escritorio\POOII\SucursalLab\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\gabri\OneDrive\Documentos\POOII\SucursalLab
+build_property.MSBuildProjectDirectory = C:\Users\gabri\OneDrive\Escritorio\POOII\SucursalLab
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Empresa/AddEmpresa.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Empresa/AddEmpresa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxBZGRFbXByZXNhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Empresa/DeleteEmpresa.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Empresa/DeleteEmpresa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxEZWxldGVFbXByZXNhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Empresa/EditEmpresa.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Empresa/EditEmpresa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxFZGl0RW1wcmVzYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Empresa/EmpresaList.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Empresa/EmpresaList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzYVxFbXByZXNhTGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Home/Index.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Home/Privacy.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Shared/Error.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Sucursal/AddSucursal.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Sucursal/AddSucursal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VjdXJzYWxcQWRkU3VjdXJzYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Sucursal/DeleteSucursal.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Sucursal/DeleteSucursal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VjdXJzYWxcRGVsZXRlU3VjdXJzYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Sucursal/EditSucursal.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Sucursal/EditSucursal.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VjdXJzYWxcRWRpdFN1Y3Vyc2FsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Sucursal/SucursalList.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Sucursal/SucursalList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VjdXJzYWxcU3VjdXJzYWxMaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/_ViewImports.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/_ViewStart.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/gabri/OneDrive/Documentos/POOII/SucursalLab/Views/Shared/_Layout.cshtml]
+[C:/Users/gabri/OneDrive/Escritorio/POOII/SucursalLab/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-a27bzsvncf

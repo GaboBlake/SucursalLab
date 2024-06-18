@@ -1,0 +1,36 @@
+@using SucursalLab.Models
+@model SucursalModel
+
+<h1 class="text-cennter">Registro de nueva sucursal</h1>
+<br><br>
+
+<form asp-action="AddSucursal" method="post" class="text-center">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div>
+        <label class="form-label" for="Name">Sucursal</label><br>
+        <input asp-for="Name" placeholder="Escriba el nombre de la sucursal">
+
+    </div>
+
+    <label class="form-label" for="Empresa">Empresa</label><br>
+        <input asp-for="Name" placeholder="Escriba el nombre de la empresa">
+    </div>
+
+    <div>
+        <label class="form-label" for="Location">Ubicación</label><br>
+        <input asp-for="Name" placeholder="Escriba la ubicación">
+    </div>
+
+    <div>
+        <label class="form-label" for="NumEpleados"># de empleados</label><br>
+        <input asp-for="Name" placeholder="Escriba el número de empleados">
+    </div>
+
+    <div>
+        <label class="form-label" for="Presupuesto">Presupuesto</label><br>
+        <input asp-for="Name" placeholder="Escriba el presupuesto">
+    </div>
+
+</form>
+
+ <a class="btn btn-outline-info" asp-action="AddSucursal" asp-controller="Sucursal">Agregar sucursal</a>
